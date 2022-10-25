@@ -1,0 +1,172 @@
+/* CARD INFO PAGE ////////////////////////////////////////////*/
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    }
+ 
+.card2 {
+    box-shadow: 10px 10px 10px 2px rgba(0, 0, 0, 0.2);
+    min-height: 500px;
+    max-height: 500px;
+    min-width: 350px;
+    max-width: 500px;
+    margin: 15px;
+    margin-top: 30px;
+    text-align: center;
+    font-family: 'Calibri';
+    background: #ddd;
+    border-radius: 12px;
+    flex: wrap;
+    }
+
+/* info card rubric text */   
+.gameinfo3 {
+    color: #000;
+    font-size: 25px;
+    font-weight: bold;
+    float: left;
+    margin-left: 15px;
+    font-family: "Avengeance Mightiest Avenger";
+    }
+  
+/* h1 */
+.card2 h1 {
+      color: #000;
+      /* background-color: #fff; */
+      margin: 10px 20px 10px 20px;
+      border-radius: 12px;
+      font-family: "Avengeance Mightiest Avenger";
+  }
+  
+
+  
+/* button */  
+.card2 button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #9F2420;
+    text-align: center;
+    cursor: pointer;
+    width: 50%;
+    font-size: 18px;
+    border-radius: 12px;
+  }
+  
+/* on hover button */   
+.card2 button:hover {
+    background-color: #9F2420;
+    opacity: 0.8;
+    font-weight: bold;
+  }
+  
+/* card info image */
+.card2 img {
+      /* width: 100%; */
+      /* height: 650px; */
+      /* height: 100%; */
+      min-height: 500px;
+      max-height: 500px;
+      max-width: 350px;  
+      border-radius: 12px;
+  }
+  
+/* moviecentral text on cards */
+.card2 .gamestop {
+    margin: -10px;
+    color: #9F2420;
+    letter-spacing: 2px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "Avengeance Mightiest Avenger";
+  }
+
+/* ordernow text on cards */
+.card2 .orderNow {
+    color: #9F2420;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Avengeance Mightiest Avenger";
+  }
+  
+/* gameinfo text */
+.gameinfo2 {
+    color: #000;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+/* gameinfo text */
+.gameinfo1 {
+    color: #000;
+    font-size: 20px;
+    margin-left: 10px;
+    /* margin-right: 10px; */
+  }
+
+/* gameinfo text */
+.payIcons {
+    color: #2790C3;
+    font-size: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+/* PERSONAL PAGE ////////////////////////////////////////////*/
+
+.card3 {
+    box-shadow: 10px 10px 10px 2px rgba(0, 0, 0, 0.2);
+    /* height: 650px; */
+    /* height: 100%; */
+    min-height: 200px;
+    min-width: 400px;
+    max-width: 800px;
+    /* max-width: 40%; */
+    margin-top: 100px;
+    text-align: center;
+    font-family: arial;
+    background: #ddd;
+    border-radius: 12px;
+    flex: wrap;
+    }
+ 
+/* h1 */
+.card3 h1 {
+      color: #9F2420;
+      /* background-color: #fff; */
+      margin: 10px 20px 10px 20px;
+      border-radius: 12px;
+      font-family: "Avengeance Mightiest Avenger";
+  }
+
+  .gameinfo4 {
+    color: #000;
+    font-size: 20px;
+    padding: 10px;
+    /* margin-left: 10px; */
+    /* margin-right: 10px; */
+    font-family: "Avengeance Mightiest Avenger";
+  }  
+
+
+  @media screen and (max-width: 768px) {
+    .cards > .card3 > .gameinfo4 > .gameinfo3{
+      font-size: 20px;
+      text-align: center;
+    }
+
+    .cardResponsive {
+      min-height: 610px; 
+      }
+
+    .card3 {
+
+      min-height: 200px;
+      min-width: 300px;
+      }
+  }
